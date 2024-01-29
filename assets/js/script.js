@@ -77,3 +77,12 @@ function displayCurrentWeather(cityName) {
       // 12pm unix epoch timestamp = 1672056000
       pmTime = "12:00:00";
       cleanForecast(); // stops stacking of forecast cards
+      
+      for (var i = 0; i < data.list.length; i++) {
+        var forecastDate = data.list[i].dt_txt.slice(0, 10);
+        var forecastHour = data.list[i].dt_txt.slice(11, 19); // 15:00:00 (15 is just example)
+        var forecastIcon = data.list[i].weather[0].icon;
+        var forecastTemp = data.list[i].main.temp;
+        // (wind * 3.6).toFixed(2)
+        var forecastWind = data.list[i].wind.speed.toFixed(2);
+        var forecastHumidity = data.list[i].main.humidity;
