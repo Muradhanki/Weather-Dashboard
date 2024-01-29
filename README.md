@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple example steps.
 1. Fire up your GitBash console and copy the line below
 
 2. 
-git clone git@github.com:Muradhanki/Work-Day-Scheduler.git
+git clone git@github.com:Muradhanki/Weather-Dashboard.git
 
 ![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/git%20bash%20clone%20screen.jpg "Git Bash Installation")
 
