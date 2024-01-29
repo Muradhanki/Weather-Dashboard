@@ -39,3 +39,19 @@
     margin: 1rem 0 !important;
   }
 }
+
+@media (max-width: 575px) {
+  .input-group {
+    margin: 0 25% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-group {
+    margin: 0 15% !important;
+  }
+  .forecastDays {
+    width: 50% !important;
+    margin: 1rem 0 !important;
+  }
+}
