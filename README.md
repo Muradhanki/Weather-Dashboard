@@ -84,19 +84,19 @@ To get a local copy up and running follow these simple example steps.
 2. 
 git clone git@github.com:Muradhanki/Weather-Dashboard.git
 
-![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/git%20bash%20clone%20screen.jpg "Git Bash Installation")
+![Screenshot](https://github.com/Muradhanki/Weather-Dashboard/blob/main/assets/images/git%20bash%20screen%20grab.jpg "Git Bash Installation")
 
 ## Roadmap
 
-See the [open issues](https://github.com/Muradhanki/Work-Day-Scheduler/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Muradhanki/Weather-Dashboard/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Muradhanki/Work-Day-Scheduler/issues/new/choose) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Muradhanki/Weather-Dashboard/issues/new/choose) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://muradhanki.github.io/Work-Day-Scheduler/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://muradhanki.github.io/Weather-Dashboard/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -108,7 +108,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Muradhanki/Weather-Dashboard/blob/main/LICENSE) for more information.
 
 ## Authors
 
