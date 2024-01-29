@@ -50,15 +50,15 @@ To get to weather dashboard on the web application, follow these simple steps pl
 
 * Step 1: go to   (https://muradhanki.github.io/Weather-Dashboard/) with your favorite web borwser .
 
-![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/Main%20screen.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Weather-Dashboard/blob/main/assets/images/Main%20screen.jpg "Web application Screen Shot")
 
-* Step 2: Insert the title for the respected time.
+* Step 2: Insert the desired city name to the search bar.
 
-![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/Enter%20text.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Weather-Dashboard/blob/main/assets/images/Main%20screen.jpg "Web application Screen Shot")
 
-* Step 3: CLick on save button.
+* Step 3: CLick on search button to see the results.
 
-![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/click%20on%20save.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Weather-Dashboard/blob/main/assets/images/Main%20screen.jpg "Web application Screen Shot")
 
 
 
