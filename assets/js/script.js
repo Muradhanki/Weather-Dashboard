@@ -56,3 +56,16 @@ function displayCurrentWeather(cityName) {
     // var windConverted = (wind * 3.6).toFixed(2);
     var lat = city.coord.lat;
     var lon = city.coord.lon;
+    
+    // ALT + 0176 = ° (celsius)
+    // main dashboard
+    // prettier-ignore
+    $("#today").html(`
+        <h4>
+        ${cityName} (${currentTime})
+        <img src="${currentIcon}"/>
+        </h4>
+        <p>Temp: ${Math.round(temp)}°C</p>
+        <p>Wind: ${wind} KPH</p>
+        <p>Humidity: ${humidity}%</p>
+        `)
