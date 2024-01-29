@@ -42,3 +42,17 @@ function cityFromSavedList() {
   });
 }
 cityFromSavedList();
+
+function displayCurrentWeather(cityName) {
+  //currentURL
+  $.get(currentURL + `q=${cityName}`).then((city) => {
+    var cityName = city.name;
+    var temp = city.main.temp;
+    var wind = city.wind.speed;
+    var humidity = city.main.humidity;
+    var currentTime = dayjs().format("DD/MM/YYYY");
+    var currentIcon = iconURL + city.weather[0].icon + ".png";
+    // convert m/s to km/h *NOTE: OBSOLETE, NO LONGER USED.
+    // var windConverted = (wind * 3.6).toFixed(2);
+    var lat = city.coord.lat;
+    var lon = city.coord.lon;
