@@ -9,3 +9,14 @@ var savedCitiesButtons = document.getElementsByClassName("savedCities");
 
 var getLocalStorage = JSON.parse(localStorage.getItem("cities"));
 var array = [];
+
+// sets up local storage
+if (getLocalStorage == null || getLocalStorage.length == 0) {
+  localStorage.setItem("cities", JSON.stringify(array));
+}
+
+var apiKey = "7790a821eef7813b147ba03c132c329b";
+var baseURL = "https://api.openweathermap.org/data/2.5/";
+var currentURL = baseURL + `weather?appid=${apiKey}&units=metric&`;
+var forecastURL = baseURL + `forecast?appid=${apiKey}&units=metric&`;
+var iconURL = "https://openweathermap.org/img/w/";
