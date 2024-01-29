@@ -69,3 +69,11 @@ function displayCurrentWeather(cityName) {
         <p>Wind: ${wind} KPH</p>
         <p>Humidity: ${humidity}%</p>
         `)
+        
+    // 5 DAY FORECAST
+    // 5-Day forecast - date, icon, temp, wind, humidity
+    //         // prettier-ignore
+    $.get(forecastURL + `lat=${lat}&lon=${lon}`).then(function (data) {
+      // 12pm unix epoch timestamp = 1672056000
+      pmTime = "12:00:00";
+      cleanForecast(); // stops stacking of forecast cards
