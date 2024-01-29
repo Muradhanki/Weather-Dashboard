@@ -20,3 +20,16 @@ var baseURL = "https://api.openweathermap.org/data/2.5/";
 var currentURL = baseURL + `weather?appid=${apiKey}&units=metric&`;
 var forecastURL = baseURL + `forecast?appid=${apiKey}&units=metric&`;
 var iconURL = "https://openweathermap.org/img/w/";
+
+function getFormInput() {
+  $(searchForm).on("submit", (event) => {
+    event.preventDefault();
+    var cityName = searchInput.value;
+    //console.log("getForm ran");
+    displayCurrentWeather(cityName);
+    saveAndShowCity();
+    searchInput.value = "";
+    showCity();
+  });
+}
+getFormInput();
