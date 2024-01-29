@@ -139,3 +139,8 @@ function showCity() {
 showCity();
 
 saveAndShowCity();
+
+//clean forecast cards to prevent duplicates stacking up
+function cleanForecast() {
+  $(".wrapperForecast").empty();
+}
