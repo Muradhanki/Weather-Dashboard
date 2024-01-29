@@ -122,3 +122,20 @@ function saveAndShowCity() {
     localStorage.setItem("cities", JSON.stringify(getStorage));
   }
 }
+
+function showCity() {
+  if (!getStorage.length == 0) {
+    // clear paragraphs to stop duplicates
+    $(".locationList").empty();
+
+    // prettier-ignore
+    $(getStorage).each(function (index) {
+      $(".locationList").append(
+        `<p class="savedCities">${getStorage[index]}</p>`
+      )
+    })
+  }
+}
+showCity();
+
+saveAndShowCity();
