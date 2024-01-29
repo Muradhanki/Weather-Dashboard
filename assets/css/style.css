@@ -60,3 +60,19 @@ button {
   margin: 3rem 0.5rem;
   border-radius: 5px;
 }
+.savedCities {
+  color: black;
+  background-color: #adb3bb;
+  margin: 1rem 0;
+  width: 60%;
+  border-radius: 11px;
+  border: solid 1px #adb3bb;
+  padding: 0.1rem 0;
+  cursor: pointer;
+  font-weight: 500;
+  user-select: none;
+}
+.savedCities:active {
+  background-color: #033aa1;
+  
+}
