@@ -86,3 +86,39 @@ function displayCurrentWeather(cityName) {
         // (wind * 3.6).toFixed(2)
         var forecastWind = data.list[i].wind.speed.toFixed(2);
         var forecastHumidity = data.list[i].main.humidity;
+        
+        if (forecastHour == pmTime) {
+          $(".wrapperForecast").append(
+            `
+                 <div class="forecastDays">
+                     <p>${forecastDate}</p>
+                     <img
+                     src="https://openweathermap.org/img/w/${forecastIcon}.png"
+                     alt="test"
+                     />
+                     <p>Temp: ${Math.round(forecastTemp)} °C</p>
+                     <p>Wind: ${forecastWind} KPH</p>
+                     <p>Humidity: ${forecastHumidity}%</p>
+                 </div>
+                 `
+          );
+        }
+      }
+    });
+  });
+}
+
+var getStorage = JSON.parse(localStorage.getItem("cities")) || []; //the "|| []" replaces possible null from localStorage with empty array
+function saveAndShowCity() {
+  var l = console.log;
+  var searchValue = searchInput.value;
+  //var searchValue = "tea";
+  // prettier-ignore
+  var formatWord = searchValue[0].toUpperCase() + searchValue.slice(1).toLowerCase();
+
+  // indexOf returns the first index at which a given element can be found in the array, or -1 if it is not present
+  if (getStorage.indexOf(formatWord) == -1) {
+    getStorage.push(formatWord);
+    localStorage.setItem("cities", JSON.stringify(getStorage));
+  }
+}
