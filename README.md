@@ -44,11 +44,11 @@ The app contains the following requirements:
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./assets/10-server-side-apis-challenge-demo.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](https://github.com/Muradhanki/Weather-Dashboard/blob/main/assets/images/10-server-side-apis-challenge-demo.png)
 
-To get to work day scheduler on the web application, follow these simple steps please.
+To get to weather dashboard on the web application, follow these simple steps please.
 
-* Step 1: go to   (https://muradhanki.github.io/Work-Day-Scheduler/) with your favorite web borwser .
+* Step 1: go to   (https://muradhanki.github.io/Weather-Dashboard/) with your favorite web borwser .
 
 ![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/Main%20screen.jpg "Web application Screen Shot")
 
