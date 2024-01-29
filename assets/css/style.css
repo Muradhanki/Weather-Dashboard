@@ -1,0 +1,62 @@
+/* GLOBAL RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+button {
+  border: 1px solid black !important;
+  border-radius: 3px !important;
+  margin: 1rem 0 !important;
+}
+.hr {
+  height: 0px;
+  width: 100px;
+  opacity: 0;
+  /* border: solid 1px gray; */
+}
+.input-group-append {
+  border-bottom: 2px solid rgb(81, 81, 81);
+  margin-bottom: 1rem !important;
+}
+
+.locationList p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* CURRENT DASHBOARD */
+#today {
+  height: 200px;
+  border: solid 1px black;
+}
+#today h4 {
+  margin-bottom: 2rem !important;
+  margin-left: 0.2rem !important;
+}
+#today p {
+  margin-left: 0.2rem !important;
+  font-weight: 500;
+}
+
+/* FORECAST DASHBOARD */
+#forecast {
+  margin: 1.5rem 0% !important;
+}
+.wrapperForecast {
+  display: flex !important;
+  justify-content: space-around !important;
+  width: 100%;
+}
+.forecastDays {
+  color: white;
+  background-color: rgb(75, 75, 75);
+  padding: 0 7px;
+  width: 100%;
+  margin: 3rem 0.5rem;
+  border-radius: 5px;
+}
