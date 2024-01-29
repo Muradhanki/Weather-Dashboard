@@ -33,3 +33,12 @@ function getFormInput() {
   });
 }
 getFormInput();
+
+function cityFromSavedList() {
+  $(citiesList).on("click", function (e) {
+    var cityName = e.target.innerText;
+    //console.log("citySavedList ran");
+    displayCurrentWeather(cityName);
+  });
+}
+cityFromSavedList();
